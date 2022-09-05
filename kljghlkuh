@@ -3,17 +3,19 @@
          <head>
          
             <title> INFORMATICA </title>
-            <meta charset=" utf-8"
+            <meta charset=" utf-8">
 
 
+    
         </head>
-
         <body>
 
-          <h3> op deze site krijg je uitleg over het binair stelsel en nogmeer zooi
-            
+          <h3> op deze site krijg je uitleg over het binair stelsel en nogmeer zooi </h3>
+       
             <a href="binairstelsel.html">binairstelsel</a>
-        </body>
+            <a href="index.html" >home</a>
+           <img src="binairegetallen.PNG">
+    </body>
 
 
         

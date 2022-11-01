@@ -1,20 +1,51 @@
+html {
+    background: #efefef;
+    height: 100%;
+}
 
 .page {
+    background: #fff;
     display: grid;
+    grid-template-rows: min-content auto min-content;
+    margin: auto;
+    max-width: 40em;
+    min-height: 100%;
+    padding: 1rem 2rem;
 }
 
 .page__header {
-    
 }
 
 .page__header-navbar {
-    
-}
-
-.page__body {
 
 }
 
-.page__footer {
+.page__body {}
 
+.page__footer {}
+
+.navbar {
+    border-bottom: 3px solid #efefef;
+}
+
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.navbar__menu-item-link {
+    border-bottom: 3px solid transparent;
+    color: #000;
+    display: block;
+    margin-bottom: -3px;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.navbar__menu-item-link:focus,
+.navbar__menu-item-link:hover {
+    border-color: #333;
 }

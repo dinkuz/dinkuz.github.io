@@ -8,7 +8,7 @@ html {
     display: grid;
     grid-template-rows: min-content auto min-content;
     margin: auto;
-    max-width: 40em;
+    max-width: 700px;
     min-height: 100%;
     padding: 1rem 2rem;
 }
@@ -22,7 +22,11 @@ html {
 
 .page__body {}
 
-.page__footer {}
+.page__footer {
+    border-top: 3px solid #efefef;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
 
 .navbar {
     border-bottom: 3px solid #efefef;
@@ -48,4 +52,9 @@ html {
 .navbar__menu-item-link:focus,
 .navbar__menu-item-link:hover {
     border-color: #333;
+}
+
+.game {
+    display: block;
+    margin: 0 -8px 1rem;
 }

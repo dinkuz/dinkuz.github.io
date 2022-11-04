@@ -64,11 +64,6 @@ html {
     border-color: #333;
 }
 
-.game {
-    display: block;
-    margin: 0 -8px 1rem;
-}
-
 .text {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
@@ -82,4 +77,15 @@ html {
 .text figure img {
     display: block;
     max-width: 100%;
+}
+
+.game {
+    display: block;
+    margin: 0 -8px 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .game {
+        display: none;
+    }
 }

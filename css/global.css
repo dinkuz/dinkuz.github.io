@@ -8,7 +8,7 @@ html {
     display: grid;
     grid-template-rows: min-content auto min-content;
     margin: auto;
-    max-width: 700px;
+    max-width: min(700px, calc(100vw -2ren));
     min-height: 100%;
     padding: 1rem 2rem;
 }
@@ -34,13 +34,14 @@ html {
 
 .navbar__menu {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
     gap: 1rem;
 }
 
-.navbar__menu-item-link {
+.navbar__item-link {
     border-bottom: 3px solid transparent;
     color: #000;
     display: block;
@@ -49,8 +50,8 @@ html {
     text-decoration: none;
 }
 
-.navbar__menu-item-link:focus,
-.navbar__menu-item-link:hover {
+.navbar__item-link:focus,
+.navbar__item-link:hover {
     border-color: #333;
 }
 

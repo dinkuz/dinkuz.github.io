@@ -30,6 +30,7 @@ html {
 
 .navbar {
     border-bottom: 3px solid #efefef;
+    font-family: 'Rubik', sans-serif;
 }
 
 .navbar__menu {
@@ -46,7 +47,7 @@ html {
     color: #000;
     display: block;
     margin-bottom: -3px;
-    padding: 1rem 2rem;
+    padding: 1rem;
     text-decoration: none;
 }
 

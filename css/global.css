@@ -69,3 +69,8 @@ html {
     font-family: 'Trirong', serif;
     font-weight: 400;
 }
+
+.text figure img {
+    display: block;
+    max-width: 100%;
+}

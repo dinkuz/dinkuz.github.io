@@ -1,1 +1,0 @@
-# dinkuz.github.io

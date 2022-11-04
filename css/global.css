@@ -59,3 +59,13 @@ html {
     display: block;
     margin: 0 -8px 1rem;
 }
+
+.text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+}
+
+.text :where(h1, h2, h3) {
+    font-family: 'Trirong', serif;
+    font-weight: 400;
+}

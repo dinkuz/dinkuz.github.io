@@ -1,15 +1,18 @@
 html {
     background: #efefef;
-    height: 100%;
 }
 
 .page {
     background: #fff;
+    box-sizing: border-box;
     display: grid;
+    /* plak de header en footer tegen de boven en onderkant van het scherm */
     grid-template-rows: min-content auto min-content;
     margin: auto;
-    max-width: min(700px, calc(100vw -2ren));
-    min-height: 100%;
+    /* maximaal 700 pixels, maar niet groter dan het scherm */
+    max-width: min(700px, calc(100vw -2rem));
+    /* minimaal zo hoog als scherm */
+    min-height: 100vh;
     padding: 1rem 2rem;
 }
 
@@ -31,14 +34,19 @@ html {
 .navbar {
     border-bottom: 3px solid #efefef;
     font-family: 'Rubik', sans-serif;
+    font-weight: 300;
 }
 
 .navbar__menu {
+    /* toon alle items naast elkaar */
     display: flex;
+    /* maar spring naar een volgende regel als het niet past */
     flex-wrap: wrap;
+    /* verberg de bullets van de <ul> */
     list-style: none;
     margin: 0;
     padding: 0;
+    /* zorg voor voldoende ruimte tussen de items */
     gap: 1rem;
 }
 

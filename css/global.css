@@ -59,33 +59,39 @@ html {
     text-decoration: none;
 }
 
+/* toon een lijn onder menu links wanneer je je cursor erboven houd */
 .navbar__item-link:focus,
 .navbar__item-link:hover {
     border-color: #333;
 }
 
 .text {
+    /* gebruik een mooi webfont */
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
 
 .text :where(h1, h2, h3) {
+    /* gebruik een ander webfont voor koppen */
     font-family: 'Trirong', serif;
     font-weight: 400;
 }
 
 .text figure img {
     display: block;
+    /* zorg ervoor dat afbeeldingen automatisch schalen */
     max-width: 100%;
 }
 
 .game {
-    display: block;
-    margin: 0 -8px 1rem;
+    /* verberg spellen standaard */
+    display: none;
 }
 
+/* maar toon spellen op schermen die groot genoeg zijn */
 @media only screen and (min-width: 768px) {
     .game {
-        display: none;
+        display: block;
+        margin: 0 -8px 1rem;
     }
 }

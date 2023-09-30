@@ -51,7 +51,7 @@ html {
 
 .navbar__item {
     flex: 1 1 auto;
-    text-align: center;
+    position: relative;
 }
 
 .navbar__item-link {
@@ -60,6 +60,7 @@ html {
     display: block;
     margin-bottom: -3px;
     padding: 1rem;
+    text-align: center;
     text-decoration: none;
 }
 

@@ -51,6 +51,10 @@ html {
     gap: 1rem;
 }
 
+.navbar__item {
+    flex: 1 1 auto;
+}
+
 .navbar__item-link {
     border-bottom: 3px solid transparent;
     color: #000;

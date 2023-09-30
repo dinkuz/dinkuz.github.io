@@ -65,9 +65,9 @@ html {
     text-decoration: none;
 }
 
-/* toon een lijn onder menu links wanneer je je cursor erboven houd */
-.navbar__item-link:focus,
-.navbar__item-link:hover {
+.navbar__item:focus > .navbar__item-link,
+.navbar__item:focus-within > .navbar__item-link,
+.navbar__item:hover > .navbar__item-link {
     background: #555;
     border-color: #333;
     color: #fff;

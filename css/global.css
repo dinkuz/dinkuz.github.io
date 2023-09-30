@@ -104,7 +104,7 @@ html {
     background: #666;
 }
 
-.navbar__item-link.navbar__item-link--active {
+.navbar__submenu-item-link.navbar__submenu-item-link--active {
     background: #444;
 }
 

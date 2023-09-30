@@ -65,9 +65,7 @@ html {
     text-decoration: none;
 }
 
-.navbar__item:focus > .navbar__item-link,
-.navbar__item:focus-within > .navbar__item-link,
-.navbar__item:hover > .navbar__item-link {
+:where(.navbar__item:focus, .navbar__item:focus-within, .navbar__item:hover) > .navbar__item-link {
     background: #555;
     border-color: #333;
     color: #fff;
@@ -104,6 +102,10 @@ html {
 .navbar__submenu-item-link:hover,
 .navbar__submenu-item-link:focus {
     background: #666;
+}
+
+.navbar__item-link.navbar__item-link--active {
+    background: #444;
 }
 
 .text {

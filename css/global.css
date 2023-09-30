@@ -90,7 +90,7 @@ html {
     list-style: none;
     padding: 0;
     position: absolute;
-    top: calc(100% + 3rem);
+    top: calc(100% + 3px);
     width: 100%;
 }
 
@@ -99,6 +99,11 @@ html {
     color: #fff;
     padding: 1rem 2rem;
     text-align: left;
+}
+
+.navbar__submenu-item-link:hover,
+.navbar__submenu-item-link:focus {
+    background: #666;
 }
 
 .text {

@@ -48,11 +48,17 @@ html {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .navbar__item {
     flex: 1 1 auto;
-    position: relative;
+}
+
+@media (width > 320px) {
+    .navbar__item {
+        position: relative;
+    }
 }
 
 .navbar__item-link {
@@ -83,12 +89,14 @@ html {
 }
 
 .navbar__submenu {
+    border-top: 3px solid #333;
     background: #555;
     display: none;
+    left: 0;
     list-style: none;
     padding: 0;
     position: absolute;
-    top: calc(100% + 3px);
+    top: 100%;
     width: 100%;
 }
 

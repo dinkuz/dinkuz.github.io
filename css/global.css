@@ -71,6 +71,29 @@ html {
     border-color: #333;
 }
 
+.navbar__item:focus > .navbar__submenu,
+.navbar__item:focus-within > .navbar__submenu,
+.navbar__item:hover > .navbar__submenu {
+    display: block;
+}
+
+.navbar__submenu {
+    background: #555;
+    display: none;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+.navbar__submenu-item-link {
+    display: block;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
 .text {
     /* gebruik een mooi webfont */
     font-family: 'Rubik', sans-serif;

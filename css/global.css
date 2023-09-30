@@ -72,7 +72,7 @@ html {
     color: #fff;
 }
 
-.navbar__item-link--active {
+.navbar__item-link.navbar__item-link--active {
     background: #333;
     color: #fff;
 }
@@ -89,7 +89,7 @@ html {
     list-style: none;
     padding: 0;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 3rem);
     width: 100%;
 }
 

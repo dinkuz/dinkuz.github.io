@@ -47,12 +47,11 @@ html {
     list-style: none;
     margin: 0;
     padding: 0;
-    /* zorg voor voldoende ruimte tussen de items */
-    gap: 1rem;
 }
 
 .navbar__item {
     flex: 1 1 auto;
+    text-align: center;
 }
 
 .navbar__item-link {

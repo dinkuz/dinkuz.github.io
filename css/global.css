@@ -10,7 +10,7 @@ html {
     grid-template-rows: min-content auto min-content;
     margin: auto;
     /* maximaal 764 pixels, zodat de game mooi past, maar niet groter dan het scherm */
-    max-width: min(764px, calc(100vw -2rem));
+    max-width: min(764px, calc(100vw - 2rem));
     /* minimaal zo hoog als scherm */
     min-height: 100vh;
     padding: 1rem 2rem;

@@ -55,7 +55,7 @@ html {
     flex: 1 1 auto;
 }
 
-@media (width > 320px) {
+@media (width > 640px) {
     .navbar__item {
         position: relative;
     }

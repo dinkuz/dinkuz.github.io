@@ -61,34 +61,121 @@
     <p>Op deze pagina staat in het kort ieder deel van de fysieke laag uitgelegd.</p>
 
     <p>
-      <h4>Processor (CPU):</h4> De processor is het brein van de computer en voert berekeningen en instructies uit. Het bestaat
-      meestal uit een Arithmetic Logic Unit (ALU) die berekeningen uitvoert en een Control Unit die de instructies
-      coördineert.
-      Taken van de processor: De processor voert diverse taken uit, waaronder het uitvoeren van instructies van
-      programma's, het verwerken van gegevens, het beheren van geheugen en het coördineren van de werking van
-      verschillende hardwarecomponenten.</p>
-      <p><h4>Werkgeheugen (RAM/ROM):</h4> RAM (Random Access Memory) is een type geheugen dat tijdelijk gegevens en programma's
-      opslaat die momenteel in gebruik zijn. ROM (Read-Only Memory) is een type geheugen dat permanente gegevens bevat
-      en niet kan worden gewijzigd.</p>
-      <p><h4>Bus:</h4> Een bus is een communicatiekanaal binnen een computer waarlangs gegevens en signalen worden verzonden tussen
-      verschillende componenten, zoals de CPU, geheugen en randapparatuur.
-      <h4>Von Neumann-architectuur:</h4>Dit is een computerarchitectuur die bestaat uit een centrale verwerkingseenheid (CPU),
-      geheugen, input/output (I/O)-apparaten en een systeembus. Deze architectuur is genoemd naar John von Neumann en
-      vormt de basis voor de meeste moderne computers.</p>
-      <p><h4>Moederbord:</h4> Het moederbord is het hoofdcircuit van een computer waarop de CPU, RAM, ROM, en andere
-      hardwarecomponenten zijn gemonteerd. Het fungeert als het centrale communicatiepunt voor alle onderdelen van de
-      computer.</p>
-      <p><h4>System-on-a-Chip (SoC):</h4> Een SoC is een geïntegreerde chip die alle belangrijke componenten van een computer of
-      mobiel apparaat, zoals CPU, GPU, geheugencontroller en andere, op één enkele chip combineert.
-      <h4>Permanent geheugen/opslagmedia:</h4> Dit omvat opslagapparaten zoals harde schijven (HDD), solid-state drives (SSD),
-      USB-flashstations en optische schijven (bijv. CD's en DVD's), die worden gebruikt om gegevens op lange termijn op
-      te slaan.</p>
-      <p><h4>Randapparatuur:</h4> Dit zijn apparaten die zijn aangesloten op een computer om specifieke functies uit te voeren,
-      zoals toetsenborden, muizen, printers, scanners en webcams.
-      <p><h4>Verbindingen:</h4> Dit verwijst naar de fysieke en elektronische aansluitingen en interfaces waarmee
-      verschillende apparaten en componenten met elkaar communiceren, bijvoorbeeld USB, HDMI, Ethernet, enz.
-      Deze componenten en concepten vormen samen de basis van computersystemen en computerarchitectuur en zijn
-      essentieel voor de werking en functionaliteit van moderne computers.</p>
+    <h4>Processor (CPU):</h4> De processor is het brein van de computer en voert berekeningen en instructies uit. Het
+    bestaat
+    meestal uit een Arithmetic Logic Unit (ALU) die berekeningen uitvoert en een Control Unit die de instructies
+    coördineert.
+    Taken van de processor: De processor voert diverse taken uit, waaronder het uitvoeren van instructies van
+    programma's, het verwerken van gegevens, het beheren van geheugen en het coördineren van de werking van
+    verschillende hardwarecomponenten.</p>
+    <p>
+    <h4>Werkgeheugen (RAM/ROM):</h4> RAM (Random Access Memory) is een type geheugen dat tijdelijk gegevens en
+    programma's
+    opslaat die momenteel in gebruik zijn. ROM (Read-Only Memory) is een type geheugen dat permanente gegevens bevat
+    en niet kan worden gewijzigd.</p>
+    <p>
+    <h4>Bus:</h4> Een bus is een communicatiekanaal binnen een computer waarlangs gegevens en signalen worden verzonden
+    tussen
+    verschillende componenten, zoals de CPU, geheugen en randapparatuur.
+    <h4>Von Neumann-architectuur:</h4>Dit is een computerarchitectuur die bestaat uit een centrale verwerkingseenheid
+    (CPU),
+    geheugen, input/output (I/O)-apparaten en een systeembus. Deze architectuur is genoemd naar John von Neumann en
+    vormt de basis voor de meeste moderne computers.</p>
+    <p>
+    <h4>Moederbord:</h4> Het moederbord is het hoofdcircuit van een computer waarop de CPU, RAM, ROM, en andere
+    hardwarecomponenten zijn gemonteerd. Het fungeert als het centrale communicatiepunt voor alle onderdelen van de
+    computer.</p>
+    <p>
+    <h4>System-on-a-Chip (SoC):</h4> Een SoC is een geïntegreerde chip die alle belangrijke componenten van een computer
+    of
+    mobiel apparaat, zoals CPU, GPU, geheugencontroller en andere, op één enkele chip combineert.
+    <h4>Permanent geheugen/opslagmedia:</h4> Dit omvat opslagapparaten zoals harde schijven (HDD), solid-state drives
+    (SSD),
+    USB-flashstations en optische schijven (bijv. CD's en DVD's), die worden gebruikt om gegevens op lange termijn op
+    te slaan.</p>
+    <p>
+    <h4>Randapparatuur:</h4> Dit zijn apparaten die zijn aangesloten op een computer om specifieke functies uit te
+    voeren,
+    zoals toetsenborden, muizen, printers, scanners en webcams.
+    <p>
+    <h4>Verbindingen:</h4> Dit verwijst naar de fysieke en elektronische aansluitingen en interfaces waarmee
+    verschillende apparaten en componenten met elkaar communiceren, bijvoorbeeld USB, HDMI, Ethernet, enz.
+    Deze componenten en concepten vormen samen de basis van computersystemen en computerarchitectuur en zijn
+    essentieel voor de werking en functionaliteit van moderne computers.</p>
+
+    <p>
+    <h2>Diepgaand onderzoek van de processor (CPU)</h2>
+    </p>
+    <p>Een processor (CPU), het kloppende hart van een computer, is een complex stuk technologie dat essentieel is voor
+      het uitvoeren van instructies en berekeningen. Laten we dieper ingaan op de werking van een processor en de
+      processen die het mogelijk maken.</p>
+
+    <h4>1. Fetch (Ophalen)</h4>
+    <p>Het proces begint met het ophalen van een instructie uit het geheugen. De processor heeft een speciale
+      registratie genaamd het instructieregister (IR) dat de op te halen instructie opslaat.</p>
+
+    <h4>2. Decode (Decoderen)</h4>
+    <p>Eens de instructie is opgehaald, moet de processor deze decoderen. Dit betekent dat de processor begrijpt wat de
+      instructie betekent en welke bewerking moet worden uitgevoerd. De controle-eenheid (CU) van de processor speelt
+      hier een cruciale rol door de instructie te vertalen naar micro-instructies die de uitvoeringsstap kunnen
+      begeleiden.</p>
+
+    <h4>3. Execute (Uitvoeren)</h4>
+    <p>Nu de instructie is gedecodeerd, kan de processor deze daadwerkelijk uitvoeren. Afhankelijk van de aard van de
+      instructie kunnen verschillende eenheden binnen de processor worden ingezet:
+
+    <h5>Arithmetic Logic Unit</h5> (ALU): De ALU voert rekenkundige en logische bewerkingen uit, zoals optellen,
+    aftrekken,
+    vermenigvuldigen, delen en vergelijken.
+
+    <h5>Floating-Point Unit (FPU):</h5> De FPU behandelt bewerkingen met zwevende-kommagetallen, zoals complexe
+    berekeningen in
+    wetenschappelijke toepassingen.
+
+    <h5>Vector Processing Unit:</h5> Voor het verwerken van arrays van gegevens, vaak gebruikt in grafische en
+    wetenschappelijke toepassingen.
+
+    <h5>Branch Unit:</h5> Voor het nemen van beslissingen en het bepalen van de volgende instructie die moet worden
+    uitgevoerd,
+    bijvoorbeeld bij branches in het programma.</p>
+
+    <h4>4. Write Back (Terugschrijven)</h4>
+
+    <p>Na de uitvoering van de instructie, kan de processor eventuele resultaten terugschrijven naar het geheugen of
+      naar registers. Dit is belangrijk voor het behoud van de gegevens die zijn gegenereerd of gewijzigd tijdens de
+      uitvoering.</p>
+
+    <h4>5. Repeat (Herhalen)</h4>
+
+    <p>Dit proces herhaalt zich continu. De processor haalt voortdurend instructies op, decodeert ze, voert ze uit en
+      schrijft resultaten terug, totdat de taak is voltooid of het programma eindigt.</p>
+
+
+    <h4>Pijplijnverwerking (Pipeline Processing)</h4>
+
+    <p>Moderne processors maken gebruik van pijplijnverwerking om de efficiëntie te verhogen. In plaats van te wachten
+      tot een instructie volledig is verwerkt voordat de volgende wordt gestart, kunnen processors meerdere instructies
+      tegelijkertijd in verschillende stadia van verwerking hebben. Dit vermindert de verwerkingstijd aanzienlijk</p>
+
+
+    <h4>Cachegeheugen</h4>
+    <p>Processors hebben cachegeheugen op meerdere niveaus om gegevens snel toegankelijk te maken, waardoor de noodzaak
+      om gegevens uit het langzamere hoofdgeheugen op te halen wordt verminderd.</p>
+
+
+    <h4>Superscalar Execution</h4>
+
+    <p>Sommige moderne processors zijn "superscalair", wat betekent dat ze meerdere instructies tegelijkertijd kunnen
+      uitvoeren, zelfs als deze niet volledig onafhankelijk zijn. Dit wordt mogelijk gemaakt door complexe scheduler- en
+      executie-eenheden.</p>
+
+
+    <h4>Kortom</h4>
+
+    <p>Een processor werkt als een geavanceerde uitvoeringsmachine die nauwkeurig georkestreerde stappen volgt om
+      instructies uit te voeren en berekeningen uit te voeren. Dit vermogen tot gegevensverwerking en uitvoering van
+      complexe instructies maakt moderne computers zo krachtig en veelzijdig.</p>
+
 
 
 
